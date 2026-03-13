@@ -1,3 +1,4 @@
+
 export const filterSchemes = (userProfile, allSchemes, category) => {
   // 1. Get schemes for the specific category (education, farming, etc.)
   const categorySchemes = allSchemes[category] || [];
